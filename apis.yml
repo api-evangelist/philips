@@ -1,17 +1,74 @@
 aid: philips
-url: https://raw.githubusercontent.com/api-evangelist/philips/refs/heads/main/apis.yml
 name: Philips
-type: Index
+description: >-
+  A Dutch multinational health technology company focused on diagnostic imaging,
+  patient monitoring, image-guided therapy, ultrasound, sleep and respiratory
+  care, and connected care solutions. Philips transitioned from a diversified
+  electronics conglomerate to a dedicated healthcare technology leader and
+  operates the HealthSuite Digital Platform (HSDP) as its cloud-based platform
+  for connected health applications. HSDP exposes Identity & Access Management,
+  Provisioning, IoT/Connect, Foundation, Cognitive, Clinical Data, and
+  Notification building blocks to enable consumer health and professional
+  healthcare applications, but access is gated behind a customer portal at
+  www.hsdp.io with developer documentation distributed to authenticated
+  customers and partners rather than the open public web. Philips also operates
+  vertical Connected Care offerings (Patient Monitoring, eICU/Capsule, Sleep &
+  Respiratory Care/SimplyGo, IntelliSpace) layered on HSDP. The legacy Philips
+  Hue lighting API is no longer a Philips offering - Hue has been spun off into
+  Signify and is published at developers.meethue.com.
+kind: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Healthcare
   - Medical Devices
-  - Technology
-description: 'A Dutch multinational health technology company focused on diagnostic imaging, patient monitoring, and connected care solutions. Transitioned from a diversified electronics conglomerate to a dedicated healthcare technology leader.'
+  - Connected Care
+  - Patient Monitoring
+  - HealthSuite
+  - HSDP
+  - Imaging
+  - IoT
+  - Cloud Platform
+url: https://raw.githubusercontent.com/api-evangelist/philips/refs/heads/main/apis.yml
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-09'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: philips:hsdp
+    name: Philips HealthSuite Digital Platform (HSDP)
+    description: >-
+      HSDP is Philips' cloud platform for building connected health
+      applications. It packages a suite of building-block services -
+      including Identity and Access Management, Provisioning, IoT/Connect for
+      device data ingestion, Foundation (logging, audit, blob storage),
+      Cognitive (AI inference), Clinical Data Repository, and Notification -
+      behind a customer-portal-gated developer experience. Customers and
+      partners access detailed API documentation and credentials through the
+      authenticated portal at www.hsdp.io; the platform also publishes a
+      status page at status.hsdp.io. Philips does not currently publish HSDP
+      OpenAPI specifications openly on the public web.
+    humanURL: https://www.hsdp.io/
+    baseURL: https://www.hsdp.io/
+    tags:
+      - HealthSuite
+      - HSDP
+      - Connected Health
+      - Cloud Platform
+      - IAM
+      - IoT
+    properties:
+      - type: Website
+        url: https://www.hsdp.io/
+      - type: StatusPage
+        url: https://status.hsdp.io/
 common:
   - type: Website
     url: https://www.philips.com/
+  - type: HealthcareWebsite
+    url: https://www.usa.philips.com/healthcare
+  - type: HSDPPortal
+    url: https://www.hsdp.io/
+  - type: HSDPStatus
+    url: https://status.hsdp.io/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
