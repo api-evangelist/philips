@@ -61,6 +61,10 @@ apis:
       - type: StatusPage
         url: https://status.hsdp.io/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/philips-software
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/philips
   - type: Website
     url: https://www.philips.com/
   - type: HealthcareWebsite
