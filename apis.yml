@@ -75,6 +75,13 @@ apis:
       - HSDP
       - Connected Health
       - Cloud Platform
+      - Identity and Access Management
+      - IoT
+    tags_raw:
+      - HealthSuite
+      - HSDP
+      - Connected Health
+      - Cloud Platform
       - IAM
       - IoT
     properties:
