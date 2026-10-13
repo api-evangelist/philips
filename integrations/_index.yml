@@ -21,5 +21,17 @@
     matched_domain: philips.com
     detected_by: sweep-health-networks.py
     detected: '2026-10-12'
-  status: pending-partner-spec
+  status: not-a-workflow
+  arazzo: null
+- slug: philips-aws-marketplace
+  label: AWS Marketplace
+  partner: amazon-web-services
+  partner_name: AWS Marketplace
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-syufgrms7h5og
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
   arazzo: null

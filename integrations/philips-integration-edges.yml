@@ -16,7 +16,26 @@ edges:
     matched_domain: philips.com
     detected_by: sweep-health-networks.py
     detected: '2026-10-12'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-syufgrms7h5og
+  listing_count: 3
+  apps:
+  - Philips IntelliSpace Radiology on AWS
+  - HealthSuite Imaging
+  - Philips Radiology Operations Command Center
+  seller_name: Philips Healthcare Informatics
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
 generated: '2026-10-12'
 method: searched
 checked:
+- https://aws.amazon.com/marketplace/
 - https://www.commonwellalliance.org/wp-json/wp/v2/pages?slug=commonwell-members&_fields=id,link,content
+marketplace_apps: []
