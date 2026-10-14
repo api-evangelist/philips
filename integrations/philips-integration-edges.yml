@@ -56,10 +56,32 @@ edges:
     detected: '2026-10-14'
   detected_by: sweep-adtech.py
   detected: '2026-10-14'
+- partner_name: Grafana (own)
+  partner: grafana-com
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://grafana.com/grafana/plugins/philipsgis-phlowchart-panel/
+  mirror_of: grafana-com/integrations/grafana-com-integration-edges.yml
+  apps:
+  - Phlowchart
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Panel
+  badges:
+  - signature:community
 generated: '2026-10-12'
 method: searched
 checked:
+- grafana-com/integrations/grafana-com-integration-edges.yml
 - https://aws.amazon.com/marketplace/
 - https://storage.googleapis.com/tcfac/additional-consent-providers.csv
 - https://www.commonwellalliance.org/wp-json/wp/v2/pages?slug=commonwell-members&_fields=id,link,content
 marketplace_apps: []
+source:
+- grafana-com/integrations/grafana-com-integration-edges.yml

@@ -58,3 +58,16 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: philips-grafana-own
+  label: Grafana (own)
+  partner: grafana-com
+  partner_name: Grafana (own)
+  category: Panel
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://grafana.com/grafana/plugins/philipsgis-phlowchart-panel/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
