@@ -75,6 +75,25 @@ edges:
   category: Panel
   badges:
   - signature:community
+- partner_name: Pulumi (pulumi-registry)
+  partner: pulumi
+  partner_match: mirror
+  mirror_match: register
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: pulumi-registry
+  evidence: https://www.pulumi.com/registry/packages/hsdp/
+  mirror_of: pulumi/integrations/pulumi-integration-edges.yml
+  apps:
+  - hsdp
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: infrastructure-as-code provider registry listing
+  badges:
+  - Verified publisher (GitHub domain-verified organization)
 generated: '2026-10-12'
 method: searched
 checked:
@@ -82,6 +101,7 @@ checked:
 - https://aws.amazon.com/marketplace/
 - https://storage.googleapis.com/tcfac/additional-consent-providers.csv
 - https://www.commonwellalliance.org/wp-json/wp/v2/pages?slug=commonwell-members&_fields=id,link,content
+- pulumi/integrations/pulumi-integration-edges.yml
 marketplace_apps: []
 source:
 - grafana-com/integrations/grafana-com-integration-edges.yml
