@@ -84,3 +84,26 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: philips-advameddx-members
+  label: AdvaMedDx (members)
+  partner_name: AdvaMedDx (members)
+  category: Diagnostics trade body member
+  type: register
+  channel: standard-directory
+  evidence: https://www.advamed.org/advameddx/members/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: AdvaMedDx member list (advamed.org/advameddx/members)
+    standard: null
+    spec_file: null
+    role: advameddx-member
+    registered_name: Philips
+    matched_domain: philips.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_website: https://www.healthcare.philips.com
+    signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
+  status: not-a-workflow
+  arazzo: null
