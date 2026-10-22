@@ -144,6 +144,32 @@ edges:
     detected: '2026-10-22'
   detected_by: sweep-ga4gh-genomics-standards.py
   first_seen: '2026-10-22'
+- partner_name: Simplifier.net (FHIR project and IG registry)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://simplifier.net/organization/philips
+  category: HL7 FHIR project / implementation guide registry organisation
+  contract_reference:
+    register: Simplifier.net organisations (sitemap/organizations.xml + organisation pages)
+    standard: HL7 FHIR (conformance projects / implementation guides)
+    spec_file: null
+    role: simplifier-organisation
+    registered_name: Royal Philips
+    register_id: https://simplifier.net/organization/philips
+    website: https://www.philips.com/a-w/about.html
+    matched_domain: philips.com
+    matched_by: domain
+    certified_products: []
+    signal_note: 'participation only: the organisation owns a Simplifier.net organisation space (FHIR projects /
+      IGs published under it); listing is not conformance'
+    detected_by: sweep-fhir-implementation-guides.py
+    detected: '2026-10-22'
+  detected_by: sweep-fhir-implementation-guides.py
+  first_seen: '2026-10-22'
 generated: '2026-10-12'
 method: searched
 checked:
@@ -161,6 +187,11 @@ checked:
 - https://www.ga4gh.org/community/organizational-members/
 - https://www.ga4gh.org/our-products/
 - https://www.ga4gh.org/our-products/implementations/
+- https://build.fhir.org/ig/qas.json
+- https://packages.fhir.org/catalog?name=
+- https://packages2.fhir.org/packages/catalog?name=
+- https://simplifier.net/search
+- https://simplifier.net/sitemap/organizations.xml
 marketplace_apps: []
 source:
 - grafana-com/integrations/grafana-com-integration-edges.yml

@@ -134,3 +134,29 @@
     detected: '2026-10-22'
   status: not-a-workflow
   arazzo: null
+- slug: philips-simplifier-net-fhir-project-and-ig-registry
+  label: Simplifier.net (FHIR project and IG registry)
+  partner_name: Simplifier.net (FHIR project and IG registry)
+  category: HL7 FHIR project / implementation guide registry organisation
+  type: register
+  channel: standard-directory
+  evidence: https://simplifier.net/organization/philips
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Simplifier.net organisations (sitemap/organizations.xml + organisation pages)
+    standard: HL7 FHIR (conformance projects / implementation guides)
+    spec_file: null
+    role: simplifier-organisation
+    registered_name: Royal Philips
+    register_id: https://simplifier.net/organization/philips
+    website: https://www.philips.com/a-w/about.html
+    matched_domain: philips.com
+    matched_by: domain
+    certified_products: []
+    signal_note: 'participation only: the organisation owns a Simplifier.net organisation space (FHIR projects /
+      IGs published under it); listing is not conformance'
+    detected_by: sweep-fhir-implementation-guides.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
